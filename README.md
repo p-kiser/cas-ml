@@ -9,4 +9,18 @@ Datasets:
 - ...
 
 
+TODO:
 
+- find dataset
+- initial inspection:
+    - shape, dtypes
+    - head, tail, random
+    - column names & meaning
+- quality:
+    - missing, nan,
+    - duplicates, type mismatch
+    - domain logic, plausibility
+- analysis
+    - distribution, plots
+    - summary stats, mean, std
+  
