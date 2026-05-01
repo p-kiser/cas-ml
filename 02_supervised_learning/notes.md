@@ -1,8 +1,4 @@
----
-title: Supervised Learning
----
-
-# Recap
+# Supervised Learning
 
 **Gradient Descent**
 
@@ -49,7 +45,7 @@ Penalize model complexity during training to reduce overfitting. L1 (Lasso) driv
 
 Choose between candidate models (or hyperparameters) based on validation performance, not test performance. Test is touched only once at the end.**
 
-# Classification vs Regression
+## Classification vs Regression
 
 - Regression: predict continuous values (price, temperature)
 - Classification: predict discrete classes (yes / no, red / blue / green)
@@ -63,7 +59,7 @@ More Infos:
 https://machinelearningmind.wordpress.com/2019/11/25/logistic-regression-explained/
 
 
-# Percicion and Recall
+## Percicion and Recall
 
 Measuring true positives, false positives, etc. by combining them into some metrics:
 
@@ -82,6 +78,4 @@ Accuracy can be misleading if the distrubution is imbalanced. If positives are r
 There are some others, like F1 Score (combination of precision and recall). This is often more useful than accuracy.
 
     F1 Score = (2 * TP) / (2 * TP + FP + FN)
-
-
 
