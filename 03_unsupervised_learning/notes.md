@@ -44,5 +44,3 @@ The number of clusters (k) is fixed by the analyst as a hyperparameter.
 A good clustering is one for which the variation within a cluster $C_k$ is as small as possible. The goal of optimization is to minimize this.
 
 This means scaling is very important for clusteering any *any* numeric value.
-
-
