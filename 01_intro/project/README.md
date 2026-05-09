@@ -1,26 +1,21 @@
 # CAS ML - M1 Project
 
-Datasets:
+Exploratory data analysis of Swiss dog breed import and export statistics.
 
-- https://opendata.swiss
-- https://data.stadt-zuerich.ch/
-- https://www.kaggle.com/datasets
-- https://datasetsearch.research.google.com
-- ...
+## Data
 
+Download both CSV files from opendata.swiss and place them in `data/`:
 
-TODO:
+| File | Dataset |
+|---|---|
+| `dogs-importBreeds.csv` | [Einfuhr von Hunden nach Rassen – FSVO](https://opendata.swiss/de/dataset/hundeimporte-nach-rassen) |
+| `dogs-exportBreeds.csv` | [Ausfuhr von Hunden nach Rassen – FSVO](https://opendata.swiss/de/dataset/hundeexporte-nach-rassen) |
 
-- find dataset
-- initial inspection:
-    - shape, dtypes
-    - head, tail, random
-    - column names & meaning
-- quality:
-    - missing, nan,
-    - duplicates, type mismatch
-    - domain logic, plausibility
-- analysis
-    - distribution, plots
-    - summary stats, mean, std
-  
+The `data/` directory is gitignored — data files are not committed to this repo.
+
+## Analysis checklist
+
+- [ ] Initial inspection: shape, dtypes, head/tail
+- [ ] Data quality: missing values, duplicates, type mismatches
+- [ ] Distribution and summary statistics
+- [ ] Visualizations

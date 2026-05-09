@@ -1,8 +1,7 @@
 [project]
-name = "cas-ml-m1-project"
+name = "cas-ml-notes"
 version = "0.1.0"
-description = "CAS ML module 1 project — exploratory analysis of Swiss dog import/export data"
-readme = "README.md"
+description = "Personal study notes and practice notebooks for the HSLU CAS Machine Learning course"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=6.29.0",
@@ -10,4 +9,6 @@ dependencies = [
     "matplotlib>=3.8.0",
     "numpy>=1.26.0",
     "pandas>=2.1.0",
+    "scikit-learn>=1.3.0",
+    "seaborn>=0.13.0",
 ]

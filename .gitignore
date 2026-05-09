@@ -1,1 +1,34 @@
-.ipynb_checkpoints
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (potentially large)
+data/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Course material (copyrighted)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
